@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>windows-dashing-go-demo</id>
+    <title>Windows Dashing Go Demo</title>
+    <version>1.0.0</version>
+    <authors>Pat Downey</authors>
+    <licenseUrl>https://raw.githubusercontent.com/patdowney/windows-dashing-go-demo/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/patdowney/windows-dashing-go-demo</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Demo Dashing-go dashboard package</description>
+    <releaseNotes>no changes yet</releaseNotes>
+  </metadata>
+  <files>
+    <file src="*.exe" />
+    <file src="dashboards\**\*.*" target="dashboards" />
+    <file src="widgets\**\*.*" target="widgets" />
+    <file src="public\**\*.*" target="public" />
+  </files>
+</package>
